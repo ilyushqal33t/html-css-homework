@@ -1,18 +1,117 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('./assets/fonts/OpenSans-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url('./assets/fonts/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+}
+
+* {
+    margin: 2px;
+}
+
 h1 {
-    color: rgb(161, 9, 73)
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: bold;
+    }
+
+h2 {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.box-wrapper {
+    display: flex;
+}
+
+/* сверху, справа, снизу, слева */
+.box {
+    margin: 40px 50px;
+    /* толщина, тип границ, цвет */
+    border: 3px solid gray;
+    /* отступы со всех сторон изнутри */
+    padding: 40px;
+}
+
+.box-text {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    }
+
+.box-link {
+    text-decoration: none;
+    color: black;
+}
+
+.link_style {
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .title {
-    font-size: 50px;
+    color: #222222;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+
+.paragraph {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
 }
 
 .text {
     background-color: burlywood;
 }
 
-.img_size {
+.img_style {
+    border-radius: 10px;
     width: 20%;
     height: 20%;
+}
+
+.form_style {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.button_style{
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(135, 222, 196);
+    cursor: pointer;
 }
 
 .icon {
@@ -22,4 +121,8 @@ h1 {
 
 .background_color {
     background-color: rgba(9, 141, 134, 0.767);
+}
+
+.button_style:hover {
+    background-color: burlywood;
 }
