@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Gilroy-Regular";
+    src: url("../fonts/gilroy-regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../fonts/gilroy-medium.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Semibold";
+    src: url("../fonts/gilroy-semibold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/gilroy-bold.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+body {
+    background: #FFF;
+}
+
+
+* {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 40px;
+    gap: 20px;
+}
+
+.menu-item {
+    color: #000;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.home {
+    color: #F25822;
+    font-family: 'Gilroy-SemiBold';
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    gap: 39px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 84px;
+    margin-bottom: 162px;
+}
+
+.intro-tittle {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 60px;
+    font-weight: 400;
+    width: 522px;
+}
+
+.intro-text {
+    color: #888;
+    font-family: 'Gilroy-Medium';
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 56px;
+    margin-top: 17px;
+}
+
+.intro-button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+    margin-top: 37px;
+    margin-left: auto;
+    margin-right: 218px;
+}
+
+.intro-button {
+    color: #FFF;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 36px 16px 35px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    border: none;
+}
+
+.link-video {
+    color: #AAA;
+    font-family: 'Gilroy-Bold';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 0px 16px 0px;
+    flex-shrink: 0;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #FFF;
+}
+
+
+.logos {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 97px 0px 96px 0px;
+    gap: 48px;
+}
