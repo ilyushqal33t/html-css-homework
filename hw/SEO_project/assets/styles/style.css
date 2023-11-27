@@ -26,6 +26,7 @@
     font-weight: 400;
 }
 
+
 body {
     background: #FFF;
 }
@@ -148,5 +149,54 @@ ul {
     margin-left: auto;
     margin-right: auto;
     padding: 97px 0px 96px 0px;
-    gap: 48px;
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.cards {
+    padding: 40px 42px 25px 29px;
+    background-color: #FFF;
+    box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+
+.cards-tittle {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 24px;
+    font-weight: 400;
+
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.cards-text {
+    color: #666;
+    font-family: 'Gilroy-Regular';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    max-width: 310px;
+
+    margin-bottom: 25px;
+}
+
+.cards-read-more {
+    color: #000;
+    font-family: 'Gilroy-Bold';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
 }
