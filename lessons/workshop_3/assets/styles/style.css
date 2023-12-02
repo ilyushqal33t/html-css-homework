@@ -174,3 +174,148 @@ ul {
 
     padding: 15px 30px;
 }
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 243px;
+}
+
+.item {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    justify-self: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+
+    border-radius: 10px;
+    background-color: #132035;
+}
+
+.item-tittle {
+    color: #FFF;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 125%;
+
+    opacity: 0.7;
+}
+
+.item-text {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+
+    opacity: 0.7;
+}
+
+.big-item {
+    grid-column: 1/3;
+    grid-row: 2/4;
+    gap: 60px;
+
+}
+
+
+.big-item-tittle {
+    margin-top: 60px;
+}
+
+.item-img-big {
+    width: 306px;
+    height: 322px;
+    flex-shrink: 0;
+}
+
+.about-group {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 221px;
+}
+
+.about-left {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 14px 0px;
+    width: 548px;
+    height: 464px;
+}
+
+.about-tittle {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 130%;
+
+    margin-bottom: 20px;
+    width: 548px;
+}
+
+.about-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 160%;
+
+    opacity: 0.7;
+
+    width: 460px;
+}
+
+.footer-container {
+    background-color: #020b1b;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-content: center;
+    color: white;
+    height: 250px;
+    gap: 30px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+}
+
+.footer-social {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer-social__item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.footer-item__text {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 100;
+    line-height: normal;
+
+    max-width: 261px;
+
+    opacity: 0.6;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 24px;    
+}
