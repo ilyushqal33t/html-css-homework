@@ -28,7 +28,7 @@
     font-weight: 800;
 }
 
-.base-container {
+.base-container, .base-container-v2 {
     max-width: 1146px;
     margin-left: auto;
     margin-right: auto;
@@ -60,7 +60,7 @@ ul {
     align-items: center;
     height: 100px;
     list-style: none;
-    gap: 40px;
+    gap: 32px;
 }
 
 .menu-item {
@@ -76,6 +76,7 @@ ul {
     gap: 128px;
     margin-top: 160px;
 }
+
 
 .intro-upper-tittle {
     color: #3A68B8;
@@ -101,7 +102,7 @@ ul {
     line-height: 160%;
     opacity: 0.7;
     margin-bottom: 50px;
-    width: 558px;
+    max-width: 558px;
 }
 
 .intro-button {
@@ -114,6 +115,8 @@ ul {
     font-weight: 600;
     line-height: normal;
     gap: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .intro-button-wrapper {
@@ -182,7 +185,7 @@ ul {
     margin-bottom: 243px;
 }
 
-.item {
+.services__item {
     display: flex;
     padding: 30px;
     flex-direction: column;
@@ -245,7 +248,6 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
 
-    padding: 14px 0px;
     width: 548px;
     height: 464px;
 }
@@ -318,4 +320,71 @@ ul {
 .footer-icons {
     display: flex;
     gap: 24px;    
+}
+
+
+@media screen and (max-width: 1439px) {
+    .base-container {
+        max-width: 100%;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .base-container-v2 {
+        max-width: 362px
+    }
+
+    .intro, .apply-ai, .about-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-left {
+        max-width: 604px;
+    }
+
+    .intro-upper-tittle {
+        font-size: 16px;
+    }
+
+    .intro-tittle {
+        font-size: 48px;
+    }
+
+    .logos {
+        flex-wrap: wrap;
+        gap: 32px;
+        justify-content: flex-start;
+        max-width: 540px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .apply-ai-content {
+        max-width: 484px;
+    }
+
+    .services {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+
+    .big-item {
+        display: none;
+    }
+
+    .about-group {
+        gap: 64px;
+    }
+
+    .footer-container {
+        height: 391px;
+    }
+
+    .footer {
+        grid-template-columns: repeat(2, 1fr);
+        height: 391px;
+        gap: 30px;
+    }
+
 }

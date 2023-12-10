@@ -118,6 +118,7 @@ ul {
     margin-top: 37px;
     margin-left: auto;
     margin-right: 218px;
+    align-items: center;
 }
 
 .intro-button {
@@ -138,7 +139,6 @@ ul {
     font-family: 'Gilroy-Bold';
     font-size: 15px;
     font-weight: 400;
-    padding: 15px 0px 16px 0px;
     flex-shrink: 0;
     text-decoration: none;
 }
@@ -266,6 +266,9 @@ ul {
 .cards-wrapper {
     padding: 25px 30px 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .services-cards__tittle {
@@ -289,7 +292,8 @@ ul {
     margin-bottom: 39px;
 }
 
-/* .services-button {
+.services-button {
     display: flex;
     align-items: center;
-} */
+    gap: 6px;
+}
