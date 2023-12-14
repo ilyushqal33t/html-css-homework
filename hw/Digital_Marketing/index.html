@@ -25,18 +25,24 @@
     </header>
     <section class="intro">
         <div class="intro-content containerV2">
-            <img src="./assets/imgs/intro-man.png" alt="">
+            <picture>
+                <source media="(max-width: 1439px)" srcset="./assets/imgs/intro-man-tablet.png">
+                <img src="./assets/imgs/intro-man.png" alt="">
+            </picture>
             <div class="intro-content__text">
-                <h1 class="BRAND">THE BRAND</h1>
-                <p class="TEXT">OF LUXERIOUS
-                    <span class="FASHION">FASHION</span>
+                <h1 class="intro_brand">THE BRAND</h1>
+                <p class="intro_text">OF LUXERIOUS
+                    <span class="intro_fashion">FASHION</span>
                 </p>
             </div>
         </div>
     </section>
     <section class="offer container">
         <div class="offer-item">
-            <img src="./assets/imgs/Layer 43.png" alt="">
+            <picture>
+                <source media="(max-width: 1439px)" srcset="./assets/imgs/wmn-tablet.png">
+                <img src="./assets/imgs/Layer 43.png" alt="">
+            </picture>
             <div class="offer-item__text">
                 <h2 class="offer-tittle">
                     30% OFF
@@ -47,7 +53,10 @@
             </div>
         </div>
         <div class="offer-item">
-            <img src="./assets/imgs/Rectangle 30.png" alt="">
+            <picture>
+                <source media="(max-width: 1439px)" srcset="./assets/imgs/mn-tablet.png">
+                <img src="./assets/imgs/Rectangle 30.png" alt="">
+            </picture>
             <div class="offer-item__text">
                 <h2 class="offer-tittle">
                     HOT DEAL
@@ -58,7 +67,10 @@
             </div>
         </div>
         <div class="offer-item">
-            <img src="./assets/imgs/Rectangle 30 (1).png" alt="">
+            <picture>
+                <source media="(max-width: 1439px)" srcset="./assets/imgs/kid-tablet.png">
+                <img src="./assets/imgs/Rectangle 30 (1).png" alt="">
+            </picture>
             <div class="offer-item__text">
                 <h2 class="offer-tittle">
                     NEW ARRIVALS
@@ -69,7 +81,10 @@
             </div>
         </div>
         <div class="offer-item big-item">
-            <img src="./assets/imgs/Rectangle 20 (1).png" alt="">
+            <picture>
+                <source media="(max-width: 1439px)" srcset="./assets/imgs/items-tablet.png">
+                <img src="./assets/imgs/Rectangle 20 (1).png" alt="">
+            </picture>
             <div class="offer-item__text">
                 <h2 class="offer-tittle">
                     LUXIROUS & TRENDY
@@ -155,10 +170,9 @@
                 </div>
             </div>
         </section>
-        <div class="products-button">
-            <img src="./assets/icons/button.svg" alt="">
-            <p class="button-text">Browse All Product</p>
-        </div>
+        <button class="products-button">
+            <span class="products-button__text">Browse All Product</span>
+        </button>
     </section>
 </body>
 
